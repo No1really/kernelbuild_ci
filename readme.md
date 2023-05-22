@@ -2,7 +2,7 @@
 # By Sarthak Roy (sarthakroy2002@gmail.com)
 
 ## How to use
- Fork, Go to Actions and fill the fields and done!
+ Fork the repo, go into the Actions menu, fill in the fields and get going!
 
 ## Credits
 
