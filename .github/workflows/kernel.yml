@@ -1,7 +1,7 @@
 # Kernel compile workflow for personal usage
 # By Sarthak Roy (sarthakroy2002@gmail.com)
 
-name: Kernel CI
+name: CI Initialisation
 
 on:
   workflow_dispatch:
@@ -37,9 +37,9 @@ jobs:
 
 
 
-      - name: Lets compile
+      - name: We Start Here
         run: |
           git clone $REPO -b $BRANCH kernel 
           cd kernel 
-          wget  https://raw.githubusercontent.com/No1really/ThunderstormReborn-RM6785/full-lto/build.sh
+          wget  https://gitlab.com/No1really/ThunderstormReborn-RM6785/-/raw/full-lto/build.sh
           bash build.sh
